@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <form id="studentForm">
+        <h2>Student Details Form</h2> <!-- Moved inside the form box -->
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <span class="error" id="nameError"></span>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        <span class="error" id="phoneError"></span>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <span class="error" id="emailError"></span>
+        <br><br>
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip">
+        <span class="error" id="zipError"></span>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+        <span class="error" id="ageError"></span>
+        <br><br>
+
+        <label for="prn">PRN No.:</label>
+        <input type="text" id="prn" name="prn">
+        <span class="error" id="prnError"></span>
+        <br><br>
+
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch">
+        <span class="error" id="branchError"></span>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+    <script src="ajax.js"></script>
+</body>
+</html>
+
